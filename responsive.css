@@ -1,0 +1,100 @@
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    .logo-img{
+        width: 30px;
+        height: 30px;
+    }
+    .nav-head{
+        font-size: large;
+    }
+    .menu{
+        gap: 5px
+    }
+    .top-contact-details{
+        flex-direction: column;
+    }
+    #top-bar{
+        display: none;
+    }
+    #about{
+        flex-direction: column-reverse;
+    }
+    .ser-boxs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 858px){
+   .menu, .search-icon{
+    display: none;
+   }
+   .checkbtn{
+    display: block;
+   }
+   nav{
+    padding: 0px 0px 0px 0px;
+   }
+}
+
+@media (max-width: 666px) {
+    .feature-boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 60%;
+    }
+}
+@media (max-width: 596px){
+    .right img{
+        width: 200px;
+    }
+}
+@media (max-width: 466px){
+    .banner-text h1{
+        font-size: larger;
+    }
+    .left{
+        width: 100%;
+        padding: 0px;
+    }
+    .banner-text h4{
+        font-size: small;
+    }
+    .banner-text p{
+        font-size: small;
+        width: 100%;
+    }
+    .left h1{
+        font-size: x-large;
+    }
+    .left p{
+        font-size: large;
+        font-weight: bold;
+        color: #3d3a3a;
+    }
+    
+    .left h1, p{
+        color: #000000;
+        padding: 25px 0px 25px 0px;
+    }
+    .left h4{
+        width: 75%;
+        font-size: x-large;
+    }
+}

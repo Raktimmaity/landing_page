@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-bar{
+    background: rgb(255,207,47);
+    background: linear-gradient(100deg, rgba(255,207,47,1) 0%, #df11bb 100%);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}   
+
+.top-contact-details{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 30%;
+    color: white;
+    align-items: center;
+}
+
+.top-icons{
+    padding: 8px;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-icon-color{
+    color: white;
+}
+
+.top-btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s all;
+}
+
+.top-btn:hover{
+    background-color: #fff;
+    color: #df11bb;
+}
+
+#top-bar{
+    width: 2px;
+    height: 25px;
+    background-color: #ffffff;
+    display: inline;
+}
+
+.top-text{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    padding: 0px 40px 0px 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-head{
+    color: black;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo-img{
+    width: 40px;
+    height: 40px;
+}
+
+ul li a{
+    display: block;
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.menu a{
+    color: black;
+}
+.dropbtn {
+    color: #000000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.buy-btn{
+    background-color: #ffc400;
+    padding: 20px;
+}
+.search-icon{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    width: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.search-icon:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.banner img{
+    width: 100%;
+    height: 70vh;
+    filter: brightness(.6);
+}
+
+.banner-content{
+    position: relative;
+    padding: 0px 40px 0px 100px;
+    background-image: url('./img/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.banner-text{
+    border-left: 5px solid #df11bb;
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.banner-text h4, h1{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.banner-text h4{
+    font-size: xx-large;
+}
+.banner-text h1{
+    font-size: 60px;
+}
+.banner-text p{
+    width: 70%;
+    color: white;
+}
+.banner-read{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background:  linear-gradient(100deg, #ffcf2f 0%, #df11bb 100%);
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+}
+.banner-read:hover{
+    background:  linear-gradient(250deg, #ffcf2f 0%, #df11bb 100%);;
+}
+.banner-req{
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+}
+.banner-req:hover{
+    background-color: #fff;
+    color: black;
+}
+
+#feature{
+    background: linear-gradient(100deg, #ffcf2f 0%, #df11bb 100%);
+    padding: 10px;
+}
+.feature-boxes{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+.box{
+    width: 30%;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    color: white;
+}
+.icon-border{
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+.box p{
+    padding: 20px;
+    color: white;
+}
+#about{
+    background-image: url('https://img.freepik.com/premium-vector/dotted-world-map-white-background-vector-illustration_541075-471.jpg?w=826');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    padding: 120px;
+}
+.left h1{
+    font-size: xx-large;
+}
+.left p{
+    font-size: large;
+    font-weight: bold;
+    color: #3d3a3a;
+}
+
+.left h1, p{
+    color: #000000;
+    padding: 25px 0px 25px 0px;
+}
+.left h4{
+    width: 75%;
+    font-size: x-large;
+}
+.left{
+    padding: 20px;
+    
+}
+
+.ab-box{
+    width: 75%;
+    height: 5%;
+    background: linear-gradient(100deg, #ffcf2f 0%, #df11bb 100%);
+    margin-left: 90px;
+    position: relative;
+}
+#services{
+    padding: 140px;
+    background-color: #ebebeb;
+}
+#services h1{
+    color: black;
+    font-size: xx-large;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 5px solid #df11bb;
+    padding: 5px;
+    display: inline;
+}
+.ser-icons{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 40px;
+    width: 75%;
+    position: relative;
+    left: 75px;
+    top: -30px;
+}
+
+.ser-icon{
+    padding: 12px;
+    background: linear-gradient(100deg, #ffcf2f 0%, #df11bb 100%);
+    border-radius: 20px;
+    color: white;
+}
+
+.ser-boxs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.ser-content{
+    padding-left: 50px;
+    font-weight: bold;
+}
