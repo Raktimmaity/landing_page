@@ -16,5 +16,5 @@ This is a simple landing page using HTML and CSS.
 
 ## Demo
 
-Insert gif or link to demo
+https://landing-page-raktimmaity.vercel.app/
 
